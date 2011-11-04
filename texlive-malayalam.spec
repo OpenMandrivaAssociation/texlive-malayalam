@@ -1,3 +1,9 @@
+# revision 23164
+# category Package
+# catalog-ctan /language/malayalam
+# catalog-date 2007-11-17 22:03:55 +0100
+# catalog-license lppl
+# catalog-version 0.9.6
 Name:		texlive-malayalam
 Version:	0.9.6
 Release:	1
@@ -250,6 +256,7 @@ typesetting Malayalam with LaTeX.
 %doc %{_texmfdistdir}/source/fonts/malayalam/tamil/tmltrans.tml
 %doc %{_texmfdistdir}/source/fonts/malayalam/tamil/tmltrans.txt
 %doc %{_texmfdistdir}/source/fonts/malayalam/tamil/wntml.pat
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -260,3 +267,5 @@ typesetting Malayalam with LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
