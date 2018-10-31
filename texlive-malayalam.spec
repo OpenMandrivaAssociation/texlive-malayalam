@@ -6,7 +6,7 @@
 # catalog-version 0.9.6
 Name:		texlive-malayalam
 Version:	0.9.6
-Release:	10
+Release:	11
 Summary:	LaTeX for Malayalam
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/malayalam
