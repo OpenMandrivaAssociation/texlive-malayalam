@@ -9,7 +9,7 @@ Version:	0.9.6
 Release:	12
 Summary:	LaTeX for Malayalam
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/malayalam
+URL:		https://www.ctan.org/tex-archive/language/malayalam
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/malayalam.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/malayalam.doc.tar.xz
